@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case-01",
+    "jd": "Senior Full-Stack Engineer\n\nWe are looking for an experienced engineer to join our core team.\n\nRequirements:\n- 5+ years of experience with React, TypeScript, and Node.js (Required)\n- Experience with PostgreSQL and Redis caching (Required)\n- Strong communication and mentoring skills (Required)\n- Experience with GraphQL APIs (Bonus)",
+    "company_url": "https://example.com",
+    "days": 5
+  },
+  {
+    "id": "case-02-thin",
+    "jd": "DevOps Engineer\nMust know Kubernetes and Terraform.",
+    "company_url": "https://example.com",
+    "days": 3
+  },
+  {
+    "id": "case-03-unreachable",
+    "jd": "Data Engineer with Python and SQL. 3+ years required.",
+    "company_url": "http://domain-does-not-exist-test-404.invalid",
+    "days": 2
+  }
+]

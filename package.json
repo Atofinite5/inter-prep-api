@@ -1,0 +1,51 @@
+{
+  "name": "inter-prep-api",
+  "version": "1.0.0",
+  "description": "Interview Prep Kit API - Express backend: auth, prep-kit pipeline, practice sessions, batch CLI",
+  "main": "dist/server/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server/server.ts",
+    "build": "tsc",
+    "start": "node dist/server/server.js",
+    "evaluate": "tsx src/cli/evaluate.ts",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "interview-prep",
+    "ai",
+    "express",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0",
+    "commander": "^12.1.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.10.7",
+    "@vitest/coverage-v8": "^3.0.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  }
+}
